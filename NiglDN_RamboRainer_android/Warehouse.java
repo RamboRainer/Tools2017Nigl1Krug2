@@ -1,7 +1,7 @@
 /**
  * This class implements a parts-list and an orders list.
  * It reads the lists from textfiles, puts them into objects and then outprints them.
- * @author Raphael Krug
+ * @author Raphael Krug and Nigl Dominik
  */
 public class Warehouse {
 static int ORDERS = 0;
@@ -38,7 +38,7 @@ public void thisIsANewMethod() { }
 	 * @return before the value is returned it is also saved in a constant "MAXLENG"
 	 */
 	static int getMax(Part[] parts){
-		
+		System.Out.Println();
 		int maxLeng = 30;
 		for (int i=0; i < parts.length; i++){
 			if (parts[i].description.length() > maxLeng){
