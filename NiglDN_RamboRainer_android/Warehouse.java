@@ -30,7 +30,9 @@ static int MAXLENG = 30;
 	}
 	
 
-public void thisIsANewMethod() { } 
+public void thisIsANewMethod() { 
+	i = 5;
+} 
 
 	/**
 	 * getMax method used by printParts to adopt the width of the description.
