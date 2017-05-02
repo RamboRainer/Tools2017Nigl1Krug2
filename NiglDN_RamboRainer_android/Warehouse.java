@@ -33,6 +33,10 @@ static int MAXLENG = 30;
 public void thisIsANewMethod() { 
 } 
 
+public void BugFix() {
+	System.Out.Print("Bug is fixed");
+} 
+
 	/**
 	 * getMax method used by printParts to adopt the width of the description.
 	 * @param parts used to access the description
