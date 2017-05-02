@@ -108,7 +108,7 @@ public void thisIsANewMethod() {
 		Out.println("Part no. |"+String.format("%-"+maxString+"s"," Description ")+"  |   Qty");
 		Out.print("-----------");
 		for (int n=maxString; n>0; n--){
-			Out.print("-");
+			Out.print("°-°");
 		}
 		Out.println("--------");
 		for (int i = 0; i<ORDERS ;i++) {
