@@ -29,6 +29,9 @@ static int MAXLENG = 30;
 		return parts;
 	}
 	
+
+public void thisIsANewMethod() { } 
+
 	/**
 	 * getMax method used by printParts to adopt the width of the description.
 	 * @param parts used to access the description
