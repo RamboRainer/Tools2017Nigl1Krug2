@@ -31,7 +31,6 @@ static int MAXLENG = 30;
 	
 
 public void thisIsANewMethod() { 
-	i = 5;
 } 
 
 	/**
